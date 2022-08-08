@@ -27,3 +27,8 @@ Unless otherwise noted, commands under `File -> Settings` refer to PyCharm. The 
 * Output paths to refresh: `$FilePath$`
 * Working Directory: `$ProjectFileDir$` (you may need to expand the dropdown)
 * Advanced Options: uncheck "Auto Save..." and "Trigger the watcher on external changes" (you may need to expand another dropdown)
+
+These two options (adding it as an external tool and a file watcher) can be repeated in other projects.
+
+Alternatively, a command like `C:\Users\[rest of path\just_black\Scripts\black.exe .` works. (Don't forget the dot, or a specific file.)
+`
